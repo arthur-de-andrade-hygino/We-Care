@@ -112,7 +112,7 @@
 
 .main-img{
 
-width: clamp(1em,30vw, 80%);
+width: 80%;
 
 }
 
@@ -181,5 +181,93 @@ transition: transform 0.1s ease;
 }
 
 
+/*                                             TABLET LAYOUT STYLES                                 */
 
 
+
+@media (min-width: 481px) and (max-width: 768px){
+
+
+
+}
+
+
+/*                                             MOBILE LAYOUT STYLES                                 */
+
+
+@media screen and (max-width: 480px) {
+    
+.main-content{
+
+flex-direction: column;
+gap: 40px;
+
+}
+
+
+.nav-links{
+
+display: none;
+
+}
+
+.div-main-img{
+
+width: fit-content;
+display:flex;
+justify-content: center;
+
+}
+
+.main-img{
+
+width: 40vh;
+
+}
+
+.content{
+
+width: 100%;
+display: flex;
+flex-direction: column;
+        align-items: center;
+justify-content: center;
+
+}
+
+.main-p{
+
+display: none;
+
+}
+
+.main-subtitle{
+
+font-size: 30px;
+    margin-bottom: 35px;
+
+}
+
+.main-title{
+
+font-size: 50px;
+
+}
+
+.main-btn{
+
+font-size: 28px;
+
+}
+
+
+.nav{
+
+padding: 1rem 1rem 0 1rem;
+
+}
+
+
+
+
+}
